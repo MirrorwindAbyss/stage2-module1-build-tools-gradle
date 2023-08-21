@@ -42,11 +42,6 @@ jar {
     }
 }
 
-test {
-    useJUnitPlatform()
-}
-
-publishMavenPublicationToMavenLocal {}.mustRunAfter('build')
 
 test {
     useJUnitPlatform()
